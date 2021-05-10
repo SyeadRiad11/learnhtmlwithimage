@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+
+    background-color: rgb(8, 8, 8);
+    font-family: monospace;
+
+
+  overflow-x: hidden;
+    position: relative;
+
+}
+
+                                                
+
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(100, 148, 237, 0.527);
+}
+
+
+.logo h3 {
+    margin-left: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-block;
+    align-items: center;
+    margin:0 20px;
+    
+    cursor: pointer;
+    font-size: 18px;
+    transition: 1s all;
+
+}
+
+ul li:hover{
+    color: rgb(183, 190, 189);
+}
+
+
+
+.hamburger {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+.hero__Section__wrapper {
+    min-height:80vh;
+    background-image: linear-gradient(rgba(12, 13, 17, 0.692), rgba(0, 0, 0, 0.671)), url('../img/back.jpg');
+
+    background-position: center;
+    margin-bottom: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero_section {
+    width: 80%;
+
+    margin: auto;
+    padding-top: 100px;
+    color: white;
+}
+
+
+.hero_section h1 {
+    font-size: 50px;
+}
+
+.hero_section a {
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.hero_section h1 span {
+    font-size: 80px;
+    font-family: monospace;
+    color: #6D98E7;
+}
+
+
+
+.hero_section p {
+    margin-top: 20px;
+    width: 617px;
+    line-height: 29px;
+    font-size: 20px;
+}
+
+
+.start__learing h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+
+.input__fileds {
+padding: 30px 0;
+}
+.input__fileds input{
+    padding: 7px 30px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+
+}
+.input__fileds input:foucs{
+   outline: none;
+
+}
+input::placeholder{
+    color: rgb(192, 191, 191);
+}
+
+button{
+    cursor: pointer;
+    padding: 8px 20px;
+    color: rgb(0, 0, 0);
+    background-color: #6D98E7;
+    border: none;
+    border-radius: 7px;
+
+}
+
+
+
+
+
+.start__learing h2::after{
+
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(109, 152, 231);
+    margin: 10px auto;
+    
+  
+}
+
+.start__learing h2 span{
+    color: rgb(109, 152, 231);
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+
+
+.img__Container {
+    overflow: hidden;
+    width: 640px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+.imgaeSection {
+
+    display: inline-flex;
+
+    transition: .5s all;
+
+}
+
+
+.imgaeSection img {
+    width: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.control {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+
+
+}
+
+#line1,
+#line2,
+#line3,
+#line4,
+#line5,
+#line6,
+#line7,
+#line8 ,
+#line9,
+#line10,
+#line11{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgba(100, 148, 237, 0.527);
+    margin: 8px;
+    border-radius: 8px;
+
+}
+
+.knowMore {
+    margin: 30px 0 0 10px;
+}
+
+.knowMore h5 {
+    color: white;
+
+}
+
+footer{
+    padding: 30px 0;
+    margin-top: 60px;
+    background-color: rgba(40, 55, 83, 0.527);
+}
+.footer__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 40px;
+}
+
+
+.footer__section h3{
+    font-size: 18px;
+}
+
+.footer__section p{
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer__section img{
+    cursor: pointer;
+}
